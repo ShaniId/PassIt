@@ -1,3 +1,20 @@
 <resources>
     <string name="app_name">PassIt1</string>
+    <string name="let_s_start">Let\'s Start!</string>
+    <string name="enter_your_full_name">Enter Your Full Name</string>
+    <string name="enter_email_address">Enter Email Address</string>
+    <string name="female">Female</string>
+    <string name="male">Male</string>
+    <string name="login">Login</string>
+    <string name="enter_password">Enter Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="get_started">Get Started</string>
+    <string name="welcome_to_the_best_n_app_that_will_help_you_n_keep_your_routine">Welcome to the best\n app that will help you\n keep your routine!</string>
+    <string name="i_already_have_an_account">I Already have an Account</string>
+    <string name="welcome_back_password">Password</string>
+    <string name="welcome_back_email">Email</string>
+    <string name="welcome_back">Welcome Back!</string>
+    <string name="welcome_back_login">Login</string>
+    <string name="heart_image">HeartImage</string>
+    <string name="pass_it_image">Pass_It_Image</string>
 </resources>
