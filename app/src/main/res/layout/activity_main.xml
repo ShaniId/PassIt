@@ -22,24 +22,21 @@
         app:layout_constraintVertical_bias="0.328" />
 
     <Button
-        android:id="@+id/btnsignup"
+        android:id="@+id/GetStarted"
         android:layout_width="0dp"
         android:layout_height="0dp"
-        android:layout_marginStart="42dp"
-        android:layout_marginLeft="42dp"
         android:layout_marginTop="506dp"
-        android:layout_marginEnd="42dp"
-        android:layout_marginRight="42dp"
-        android:layout_marginBottom="25dp"
+        android:layout_marginBottom="30dp"
         android:text="Get Started"
         app:backgroundTint="#3D5A80"
-        app:layout_constraintBottom_toTopOf="@+id/button2"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintBottom_toTopOf="@+id/HaveAlreadyAccount"
+        app:layout_constraintEnd_toEndOf="@+id/HaveAlreadyAccount"
+        app:layout_constraintStart_toStartOf="@+id/HaveAlreadyAccount"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/HaveAlreadyAccount"
         android:layout_width="0dp"
         android:layout_height="0dp"
         android:layout_marginStart="42dp"
@@ -51,7 +48,11 @@
         app:backgroundTint="#98C1D9"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btnsignup" />
+        app:layout_constraintTop_toBottomOf="@+id/GetStarted"
+        app:layout_constraintVertical_bias="0.0" />
+    app:layout_constraintTop_toBottomOf="@+id/GetStarted"
+    tools:ignore="MissingConstraints" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
