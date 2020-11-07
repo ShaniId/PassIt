@@ -16,7 +16,7 @@ import com.google.firebase.auth.FirebaseAuth;
 
 import java.util.regex.Pattern;
 
-public class PersonalDetailsActivity extends AppCompatActivity {
+public class PersonalDetailsActivity extends AppCompatActivity implements View.OnClickListener{
 
     EditText editTextEmail, editTextPassword1, editTextPassword2, editFullName;
     private FirebaseAuth mAuth;
@@ -30,7 +30,7 @@ public class PersonalDetailsActivity extends AppCompatActivity {
         editTextPassword1 = (EditText) findViewById(R.id.Password);
         editTextPassword2 = (EditText) findViewById(R.id.ConfirmPassword);
         mAuth = FirebaseAuth.getInstance();
-//        findViewById(R.id.Login).setOnClickListener(this);
+        findViewById(R.id.Login).setOnClickListener(this);
     }
 
     private void registerUser(){
@@ -70,7 +70,7 @@ public class PersonalDetailsActivity extends AppCompatActivity {
             }
         });
     }
-
+    @Override
     public void onClick(View view) {
         registerUser();
     }
