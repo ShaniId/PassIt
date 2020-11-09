@@ -88,7 +88,8 @@
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toEndOf="@+id/textView"
         app:layout_constraintTop_toTopOf="@+id/imageView6"
-        app:srcCompat="@mipmap/heart_foreground" />
+        app:srcCompat="@mipmap/heart_foreground"
+        />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

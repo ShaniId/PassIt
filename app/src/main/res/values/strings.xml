@@ -27,25 +27,43 @@
     <string name="yes_radio3">Yes</string>
     <string name="no_radio3">No</string>
     <string name="stay_alone_at_home">Stay alone at home?</string>
+    <string name="next_button">Next</string>
+    <string name="your_age">Your Age</string>
+    <string name="what_interesting_you">What Interesting You ?</string>
+    <string name="cooking">Cooking</string>
+    <string name="cookingImage">cookingImage</string>
+    <string name="sport">Sport</string>
+    <string name="businessesImage">Businesses</string>
+    <string name="businessesText">Businesses</string>
+    <string name="cooking_image">Cooking</string>
+    <string name="businesses_image">Businesses</string>
+    <string name="businesses_text">Businesses</string>
+    <string name="Technology_text">Technology_text</string>
+    <string name="Technology_image">Technology_image</string>
+    <string name="DIY_text">DIY_text</string>
+    <string name="DIY_image">DIY_image</string>
+    <string name="travel_image">treavel_text</string>
+    <string name="travelImage">travelImage</string>
+    <string name="travel1_image">Travel</string>
+    <string name="travel_Text">Travel</string>
+    <string name="CoursesImage">courses_image</string>
+    <string name="music_image">Music</string>
+    <string name="music_text">Music</string>
+
+
     <string-array name="spinner1">
-     <item>If yes-how much hours at day?</item>
-    <item>1-3 Hours </item>
-    <item>3-6 Hours </item>
-    <item>6-9 Hours</item>
-    <item>9-12 Hours</item>
+        <item>If yes-how much hours at day?</item>
+        <item>No</item>
+        <item>Part time job</item>
+        <item>Full time</item>
     </string-array>
+
     <string-array name="spinner2">
         <item>What is your favorite sport?</item>
-        <item>Soccer </item>
-        <item>Basketball </item>
-        <item>Street work out</item>
-        <item>Gym</item>
+        <item>Yoga </item>
+        <item>Indoor training </item>
+        <item>Pilates</item>
+        <item>Zumba</item>
     </string-array>
-    <string-array name="spinner3">
-        <item>What is your habits?</item>
-        <item>bla bla </item>
-        <item>bla bla </item>
-        <item>bla bla</item>
 
-    </string-array>
 </resources>
