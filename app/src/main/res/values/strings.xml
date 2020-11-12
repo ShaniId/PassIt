@@ -1,3 +1,69 @@
 <resources>
     <string name="app_name">PassIt1</string>
+    <string name="let_s_start">Let\'s Start!</string>
+    <string name="enter_your_full_name">Enter Your Full Name</string>
+    <string name="enter_email_address">Enter Email Address</string>
+    <string name="female">Female</string>
+    <string name="male">Male</string>
+    <string name="login">Login</string>
+    <string name="enter_password">Enter Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="get_started">Get Started</string>
+    <string name="welcome_to_the_best_n_app_that_will_help_you_n_keep_your_routine">Welcome to the best\n app that will help you\n keep your routine!</string>
+    <string name="i_already_have_an_account">I Already have an Account</string>
+    <string name="welcome_back_password">Password</string>
+    <string name="welcome_back_email">Email</string>
+    <string name="welcome_back">Welcome Back!</string>
+    <string name="welcome_back_login">Login</string>
+    <string name="heart_image">HeartImage</string>
+    <string name="pass_it_image">Pass_It_Image</string>
+    <string name="we_want_to_know_what_you_like">We Want To Know What You Like:</string>
+    <string name="question1">Are you going to work now?</string>
+    <string name="yes_radio1">Yes</string>
+    <string name="no_radio1">No</string>
+    <string name="do_you_make_sport">Do You Make Sport?</string>
+    <string name="no_radio2">No</string>
+    <string name="yes_radio2">Yes</string>
+    <string name="yes_radio3">Yes</string>
+    <string name="no_radio3">No</string>
+    <string name="stay_alone_at_home">Stay alone at home?</string>
+    <string name="next_button">Next</string>
+    <string name="your_age">Your Age</string>
+    <string name="what_interesting_you">What Interesting You ?</string>
+    <string name="cooking">Cooking</string>
+    <string name="cookingImage">cookingImage</string>
+    <string name="sport">Sport</string>
+    <string name="businessesImage">Businesses</string>
+    <string name="businessesText">Businesses</string>
+    <string name="cooking_image">Cooking</string>
+    <string name="businesses_image">Businesses</string>
+    <string name="businesses_text">Businesses</string>
+    <string name="Technology_text">Technology_text</string>
+    <string name="Technology_image">Technology_image</string>
+    <string name="DIY_text">DIY_text</string>
+    <string name="DIY_image">DIY_image</string>
+    <string name="travel_image">treavel_text</string>
+    <string name="travelImage">travelImage</string>
+    <string name="travel1_image">Travel</string>
+    <string name="travel_Text">Travel</string>
+    <string name="CoursesImage">courses_image</string>
+    <string name="music_image">Music</string>
+    <string name="music_text">Music</string>
+
+
+    <string-array name="spinner1">
+        <item>If yes-how much hours at day?</item>
+        <item>No</item>
+        <item>Part time job</item>
+        <item>Full time</item>
+    </string-array>
+
+    <string-array name="spinner2">
+        <item>What is your favorite sport?</item>
+        <item>Yoga </item>
+        <item>Indoor training </item>
+        <item>Pilates</item>
+        <item>Zumba</item>
+    </string-array>
+
 </resources>

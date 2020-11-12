@@ -9,7 +9,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.PassIt1">
-        <activity android:name=".PersonalDetailsActivity"></activity>
+        <activity android:name=".ToKnowTheClientMenu"></activity>
+        <activity android:name=".ToKbowTheClientManu" />
+        <activity android:name=".ToKnowTheClient" />
+        <activity android:name=".WelcomeBack" />
+        <activity android:name=".PersonalDetailsActivity" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
