@@ -14,6 +14,15 @@ public class ToKnowTheClientMenu extends AppCompatActivity {
         setContentView(R.layout.activity_to_know_the_client_menu);
 
 
+        //Link to Day 1 page
+        findViewById(R.id.Next123).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v)
+            {
+                Intent intent = new Intent(ToKnowTheClientMenu.this, DatePicker.class);
+                startActivity(intent);
+            }
+        });
 
     }
 }

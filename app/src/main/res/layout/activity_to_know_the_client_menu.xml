@@ -12,7 +12,11 @@
         android:id="@+id/WhatInterestingYou"
         android:layout_width="409dp"
         android:layout_height="62dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginLeft="1dp"
         android:layout_marginTop="54dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginRight="1dp"
         android:autofillHints=""
         android:background="#98C1D9"
         android:ems="10"
@@ -22,9 +26,10 @@
         android:textAlignment="center"
         android:textColor="#3D5A80"
         android:textSize="25sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        tools:ignore="MissingConstraints,TextViewEdits"
-        tools:layout_editor_absoluteX="1dp" />
+        tools:ignore="MissingConstraints,TextViewEdits" />
 
     //Sport
     <ImageView
@@ -155,7 +160,7 @@
         android:layout_marginTop="445dp"
         android:layout_marginEnd="230dp"
         android:layout_marginRight="230dp"
-        android:text="        DIY -                                      Do It Yourself"
+        android:text="@string/DIY_text"
         android:textColor="#3D5A80"
         android:textSize="19sp"
         app:layout_constraintEnd_toStartOf="@+id/cookingImage"
@@ -254,7 +259,7 @@
         android:layout_marginTop="310dp"
         android:layout_marginEnd="60dp"
         android:layout_marginRight="60dp"
-        android:text="Courses"
+        android:text="@string/courses"
         android:textColor="#3D5A80"
         android:textSize="23sp"
         app:layout_constraintEnd_toStartOf="@+id/cookingImage"
@@ -297,9 +302,8 @@
 
 
     //Next
-
     <Button
-        android:id="@+id/Next"
+        android:id="@+id/Next123"
         android:layout_width="250dp"
         android:layout_height="60dp"
         android:layout_marginStart="50dp"
@@ -307,11 +311,120 @@
         android:layout_marginTop="612dp"
         android:layout_marginEnd="50dp"
         android:layout_marginRight="50dp"
-        android:text="Next"
+        android:text="@string/next_button"
         android:textSize="20sp"
+        android:textColor="@color/white"
         app:backgroundTint="#98C1D9"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    //checkbox left side
+
+    <CheckBox
+        android:id="@+id/checkBoxSport"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="65dp"
+        android:layout_marginLeft="65dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="133dp"
+        android:layout_marginRight="133dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/WhatInterestingYou" />
+
+    <CheckBox
+        android:id="@+id/checkBoxBusinesses"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="64dp"
+        android:layout_marginLeft="64dp"
+        android:layout_marginTop="123dp"
+        android:layout_marginEnd="133dp"
+        android:layout_marginRight="133dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/WhatInterestingYou" />
+
+    <CheckBox
+        android:id="@+id/checkBoxTechnology"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="67dp"
+        android:layout_marginLeft="67dp"
+        android:layout_marginTop="345dp"
+        android:layout_marginEnd="133dp"
+        android:layout_marginRight="133dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/WhatInterestingYou" />
+
+    <CheckBox
+        android:id="@+id/checkBoxDIY"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="67dp"
+        android:layout_marginLeft="67dp"
+        android:layout_marginTop="228dp"
+        android:layout_marginEnd="133dp"
+        android:layout_marginRight="133dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/WhatInterestingYou" />
+
+    //checkbox right side
+
+    <CheckBox
+        android:id="@+id/checkBoxCooking"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="285dp"
+        android:layout_marginLeft="285dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/WhatInterestingYou" />
+
+    <CheckBox
+        android:id="@+id/checkBoxTravel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="285dp"
+        android:layout_marginLeft="285dp"
+        android:layout_marginTop="123dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/WhatInterestingYou" />
+
+    <CheckBox
+        android:id="@+id/checkBoxMusic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="285dp"
+        android:layout_marginLeft="285dp"
+        android:layout_marginTop="345dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/WhatInterestingYou" />
+
+    <CheckBox
+        android:id="@+id/checkBoxCourses"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="285dp"
+        android:layout_marginLeft="285dp"
+        android:layout_marginTop="227dp"
+        android:layout_marginEnd="12dp"
+        android:layout_marginRight="12dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/WhatInterestingYou" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
