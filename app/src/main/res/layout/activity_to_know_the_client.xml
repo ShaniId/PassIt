@@ -50,7 +50,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="35dp"
         android:layout_marginLeft="35dp"
-        android:layout_marginTop="144dp"
+        android:layout_marginTop="25dp"
         android:layout_marginEnd="35dp"
         android:layout_marginRight="35dp"
         android:gravity="center_horizontal"
@@ -61,7 +61,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.494"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toBottomOf="@+id/KnowTheClient" />
 
     //2
 
@@ -86,7 +86,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="-19dp"
         android:layout_marginLeft="-19dp"
-        android:layout_marginTop="44dp"
+        android:layout_marginTop="25dp"
         android:layout_marginEnd="35dp"
         android:layout_marginRight="35dp"
         android:gravity="center_horizontal"
@@ -100,28 +100,13 @@
         app:layout_constraintTop_toBottomOf="@+id/spinner1" />
 
 
-
-    //3
-
-    <Spinner
-        android:id="@+id/spinner3"
-        android:layout_width="wrap_content"
-        android:layout_height="44dp"
-        android:layout_marginStart="68dp"
-        android:layout_marginLeft="68dp"
-        android:layout_marginTop="2dp"
-        android:entries="@array/spinner3"
-        android:textSize="45sp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/YesRadioButton3" />
-
     <TextView
         android:id="@+id/Question3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="85dp"
         android:layout_marginLeft="85dp"
-        android:layout_marginTop="44dp"
+        android:layout_marginTop="25dp"
         android:layout_marginEnd="150dp"
         android:layout_marginRight="150dp"
         android:text="@string/stay_alone_at_home"
@@ -213,4 +198,42 @@
         android:text="@string/no_radio3"
         app:layout_constraintStart_toEndOf="@+id/YesRadioButton3"
         app:layout_constraintTop_toBottomOf="@+id/Question3" />
+
+    <Button
+        android:id="@+id/Next"
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="100dp"
+        android:layout_marginRight="100dp"
+        android:text="@string/next_button"
+        android:textSize="20sp"
+        app:backgroundTint="#98C1D9"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/YourAge" />
+
+    <EditText
+        android:id="@+id/YourAge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="76dp"
+        android:layout_marginLeft="76dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="150dp"
+        android:layout_marginRight="150dp"
+        android:autofillHints="no"
+        android:ems="10"
+        android:hint="@string/your_age"
+        android:inputType="number"
+        android:textColor="#3D5A80"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/YesRadioButton3" />
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>

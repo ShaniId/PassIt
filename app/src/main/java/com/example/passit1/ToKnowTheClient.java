@@ -2,6 +2,7 @@ package com.example.passit1;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.AdapterView;
@@ -25,6 +26,16 @@ public class ToKnowTheClient extends AppCompatActivity {
             @Override
             public void onNothingSelected(AdapterView<?> parent) {
 
+            }
+        });
+
+        //Link to ToKnowTheClientMenu page
+        findViewById(R.id.Next).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v)
+            {
+                Intent intent = new Intent(ToKnowTheClient.this, ToKnowTheClientMenu.class);
+                startActivity(intent);
             }
         });
 

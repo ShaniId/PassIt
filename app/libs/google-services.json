@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "4835287904",
+    "firebase_url": "https://passit-782c5.firebaseio.com",
+    "project_id": "passit-782c5",
+    "storage_bucket": "passit-782c5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:4835287904:android:f09b22581fe6cbf0443405",
+        "android_client_info": {
+          "package_name": "com.example.passit1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "4835287904-1tevg8uo36qh8dljfbbvd3mq0cms4avg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.passit1",
+            "certificate_hash": "7db136811fbd021cba7fe86c6a479c6b451136d7"
+          }
+        },
+        {
+          "client_id": "4835287904-mq995d6dd65p29lc2dg0rbc5j4p7p3sk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC9rLYWAGfEEVuy8bwzkv4mH8BCBYNRak4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "4835287904-mq995d6dd65p29lc2dg0rbc5j4p7p3sk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
