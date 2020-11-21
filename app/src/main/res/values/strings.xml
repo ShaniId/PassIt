@@ -21,7 +21,7 @@
     <string name="question1">Are you going to work now?</string>
     <string name="yes_radio1">Yes</string>
     <string name="no_radio1">No</string>
-    <string name="do_you_make_sport">Do You Make Sport?</string>
+    <string name="do_you_do_sport">Do You Do Sport?</string>
     <string name="no_radio2">No</string>
     <string name="yes_radio2">Yes</string>
     <string name="yes_radio3">Yes</string>
@@ -49,6 +49,7 @@
     <string name="CoursesImage">courses_image</string>
     <string name="music_image">Music</string>
     <string name="music_text">Music</string>
+    <string name="choose_date">Choose the days you will stay in quarantine</string>
 
 
     <string-array name="spinner1">

@@ -45,7 +45,7 @@ public class PersonalDetailsActivity extends AppCompatActivity implements View.O
             @Override
             public void onClick(View v)
             {
-                Intent intent = new Intent(PersonalDetailsActivity.this, ToKnowTheClient.class);
+                Intent intent = new Intent(PersonalDetailsActivity.this, DatePicker.class);
                 startActivity(intent);
             }
         });
@@ -67,14 +67,10 @@ public class PersonalDetailsActivity extends AppCompatActivity implements View.O
                 if (checked)
                    gender = "Female";
             else
-                gender = "";
                 break;
             case R.id.checkBoxMale:
                 if (checked)
-                gender = "Male";
-            else
-                gender = "";
-                break;
+                    gender = "Male";
         }
     }
 
@@ -141,6 +137,8 @@ public class PersonalDetailsActivity extends AppCompatActivity implements View.O
                 else{
                     Toast.makeText(getApplicationContext(), "Email already exist", Toast.LENGTH_SHORT).show();
                 }
+                Intent intent = new Intent(PersonalDetailsActivity.this, DatePicker.class);
+                startActivity(intent);
             }
         });
     }
