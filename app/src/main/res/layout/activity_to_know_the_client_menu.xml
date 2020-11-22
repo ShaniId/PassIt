@@ -32,6 +32,7 @@
         tools:ignore="MissingConstraints,TextViewEdits" />
 
     //Sport
+
     <ImageView
         android:id="@+id/sportImage"
         android:layout_width="124dp"
@@ -51,22 +52,26 @@
 
     //Businesses
 
+    //Technology
+
     <TextView
         android:id="@+id/SportText"
-        android:layout_width="80dp"
+        android:layout_width="120dp"
         android:layout_height="35dp"
-        android:layout_marginStart="60dp"
-        android:layout_marginLeft="60dp"
-        android:layout_marginTop="72dp"
-        android:layout_marginEnd="230dp"
-        android:layout_marginRight="230dp"
+        android:layout_marginStart="54dp"
+        android:layout_marginLeft="54dp"
+        android:layout_marginTop="198dp"
+        android:layout_marginEnd="237dp"
+        android:layout_marginRight="237dp"
+        android:gravity="center_horizontal"
         android:text="@string/sport"
+        android:textAlignment="center"
         android:textColor="#3D5A80"
-        android:textSize="23sp"
-        app:layout_constraintEnd_toStartOf="@+id/cookingImage"
-        app:layout_constraintHorizontal_bias="0.003"
-        app:layout_constraintStart_toEndOf="@+id/sportImage"
-        app:layout_constraintTop_toTopOf="@+id/sportImage" />
+        android:textSize="21sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
         android:id="@+id/BusinessesImage"
@@ -74,12 +79,12 @@
         android:layout_height="109dp"
         android:layout_marginStart="60dp"
         android:layout_marginLeft="60dp"
-        android:layout_marginTop="232dp"
+        android:layout_marginTop="228dp"
         android:layout_marginEnd="239dp"
         android:layout_marginRight="239dp"
         android:contentDescription="@string/businesses_image"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_bias="0.583"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@mipmap/businesses_foreground"
@@ -89,25 +94,26 @@
         android:id="@+id/BusinessesText"
         android:layout_width="120dp"
         android:layout_height="34dp"
-        android:layout_marginStart="56dp"
-        android:layout_marginLeft="56dp"
-        android:layout_marginTop="189dp"
-        android:layout_marginEnd="230dp"
-        android:layout_marginRight="230dp"
+        android:layout_marginStart="54dp"
+        android:layout_marginLeft="54dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginEnd="237dp"
+        android:layout_marginRight="237dp"
+        android:gravity="center_horizontal"
         android:text="@string/businesses_text"
+        android:textAlignment="center"
         android:textColor="#3D5A80"
-        android:textSize="23sp"
-        app:layout_constraintEnd_toStartOf="@+id/cookingImage"
-        app:layout_constraintStart_toEndOf="@+id/sportImage"
-        app:layout_constraintTop_toTopOf="@+id/sportImage" />
+        android:textSize="21sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/BusinessesImage" />
 
-    //Technology
     <ImageView
         android:id="@+id/TechnologyImage"
         android:layout_width="124dp"
         android:layout_height="109dp"
-        android:layout_marginStart="60dp"
-        android:layout_marginLeft="60dp"
+        android:layout_marginStart="58dp"
+        android:layout_marginLeft="58dp"
         android:layout_marginTop="340dp"
         android:layout_marginEnd="239dp"
         android:layout_marginRight="239dp"
@@ -116,26 +122,29 @@
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        tools:ignore="MissingConstraints"
-        app:srcCompat="@mipmap/technology_foreground"/>
+        app:srcCompat="@mipmap/technology_foreground"
+        tools:ignore="MissingConstraints" />
+
+    //DIY
 
     <TextView
         android:id="@+id/TechnologyText"
         android:layout_width="120dp"
         android:layout_height="34dp"
-        android:layout_marginStart="56dp"
-        android:layout_marginLeft="56dp"
-        android:layout_marginTop="310dp"
-        android:layout_marginEnd="230dp"
-        android:layout_marginRight="230dp"
+        android:layout_marginStart="54dp"
+        android:layout_marginLeft="54dp"
+        android:layout_marginTop="430dp"
+        android:layout_marginEnd="237dp"
+        android:layout_marginRight="237dp"
+        android:gravity="center_horizontal"
         android:text="@string/Technology_text"
+        android:textAlignment="center"
         android:textColor="#3D5A80"
-        android:textSize="23sp"
-        app:layout_constraintEnd_toStartOf="@+id/cookingImage"
-        app:layout_constraintStart_toEndOf="@+id/sportImage"
-        app:layout_constraintTop_toTopOf="@+id/sportImage" />
+        android:textSize="21sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
-    //DIY
     <ImageView
         android:id="@+id/DIYImage"
         android:layout_width="124dp"
@@ -153,34 +162,38 @@
         app:srcCompat="@mipmap/diy_foreground"
         tools:ignore="MissingConstraints" />
 
+    //Cooking
+
     <TextView
         android:id="@+id/DIYText"
-        android:layout_width="161dp"
-        android:layout_height="55dp"
-        android:layout_marginStart="71dp"
-        android:layout_marginLeft="71dp"
-        android:layout_marginTop="445dp"
-        android:layout_marginEnd="230dp"
-        android:layout_marginRight="230dp"
+        android:layout_width="148dp"
+        android:layout_height="38dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="563dp"
+        android:layout_marginEnd="213dp"
+        android:layout_marginRight="213dp"
         android:text="@string/DIY_text"
         android:textColor="#3D5A80"
         android:textSize="19sp"
-        app:layout_constraintEnd_toStartOf="@+id/cookingImage"
-        app:layout_constraintStart_toEndOf="@+id/sportImage"
-        app:layout_constraintTop_toTopOf="@+id/sportImage" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
-    //Cooking
+    //Travel
+
     <ImageView
         android:id="@+id/cookingImage"
-        android:layout_width="80dp"
-        android:layout_height="80dp"
-        android:layout_marginStart="50dp"
-        android:layout_marginLeft="50dp"
-        android:layout_marginTop="128dp"
+        android:layout_width="120dp"
+        android:layout_height="77dp"
+        android:layout_marginStart="60dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="130dp"
         android:layout_marginEnd="60dp"
         android:layout_marginRight="60dp"
         android:contentDescription="@string/cookingImage"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.534"
         app:layout_constraintStart_toEndOf="@+id/sportImage"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@mipmap/cooking1"
@@ -188,28 +201,29 @@
 
     <TextView
         android:id="@+id/CookingImage"
-        android:layout_width="95dp"
-        android:layout_height="34dp"
-        android:layout_marginStart="230dp"
-        android:layout_marginLeft="230dp"
-        android:layout_marginTop="80dp"
-        android:layout_marginEnd="60dp"
-        android:layout_marginRight="60dp"
+        android:layout_width="120dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="225dp"
+        android:layout_marginLeft="225dp"
+        android:layout_marginTop="196dp"
+        android:layout_marginEnd="45dp"
+        android:layout_marginRight="45dp"
+        android:gravity="center_horizontal"
         android:text="@string/cooking_image"
+        android:textAlignment="center"
         android:textColor="#3D5A80"
-        android:textSize="23sp"
-        app:layout_constraintEnd_toStartOf="@+id/cookingImage"
-        app:layout_constraintStart_toEndOf="@+id/sportImage"
-        app:layout_constraintTop_toTopOf="@+id/sportImage" />
+        android:textSize="21sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
-    //Travel
     <ImageView
         android:id="@+id/travelImage"
         android:layout_width="128dp"
         android:layout_height="107dp"
-        android:layout_marginStart="50dp"
-        android:layout_marginLeft="50dp"
-        android:layout_marginTop="230dp"
+        android:layout_marginStart="47dp"
+        android:layout_marginLeft="47dp"
+        android:layout_marginTop="227dp"
         android:layout_marginEnd="38dp"
         android:layout_marginRight="38dp"
         android:contentDescription="@string/travel1_image"
@@ -219,23 +233,26 @@
         app:srcCompat="@mipmap/travel_foreground"
         tools:ignore="MissingConstraints" />
 
+    //Courses
+
     <TextView
         android:id="@+id/TravelImage"
         android:layout_width="95dp"
         android:layout_height="34dp"
-        android:layout_marginStart="230dp"
-        android:layout_marginLeft="230dp"
-        android:layout_marginTop="189dp"
-        android:layout_marginEnd="40dp"
-        android:layout_marginRight="40dp"
+        android:layout_marginStart="246dp"
+        android:layout_marginLeft="246dp"
+        android:layout_marginTop="309dp"
+        android:layout_marginEnd="70dp"
+        android:layout_marginRight="70dp"
+        android:gravity="center_horizontal"
         android:text="@string/travel_Text"
+        android:textAlignment="center"
         android:textColor="#3D5A80"
-        android:textSize="23sp"
-        app:layout_constraintEnd_toStartOf="@+id/cookingImage"
-        app:layout_constraintStart_toEndOf="@+id/sportImage"
-        app:layout_constraintTop_toTopOf="@+id/sportImage" />
+        android:textSize="21sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
-    //Courses
     <ImageView
         android:id="@+id/Courses1Image"
         android:layout_width="107dp"
@@ -252,30 +269,33 @@
         app:srcCompat="@mipmap/courses_foreground"
         tools:ignore="DuplicateIds,MissingConstraints" />
 
+    //Music
+
     <TextView
         android:id="@+id/CoursesImage"
         android:layout_width="95dp"
         android:layout_height="34dp"
-        android:layout_marginStart="230dp"
-        android:layout_marginLeft="230dp"
-        android:layout_marginTop="310dp"
-        android:layout_marginEnd="60dp"
-        android:layout_marginRight="60dp"
+        android:layout_marginStart="246dp"
+        android:layout_marginLeft="246dp"
+        android:layout_marginTop="432dp"
+        android:layout_marginEnd="70dp"
+        android:layout_marginRight="70dp"
+        android:gravity="center_horizontal"
         android:text="@string/courses"
+        android:textAlignment="center"
         android:textColor="#3D5A80"
-        android:textSize="23sp"
-        app:layout_constraintEnd_toStartOf="@+id/cookingImage"
-        app:layout_constraintStart_toEndOf="@+id/sportImage"
-        app:layout_constraintTop_toTopOf="@+id/sportImage" />
+        android:textSize="21sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
-    //Music
     <ImageView
         android:id="@+id/MusicImage"
         android:layout_width="148dp"
         android:layout_height="128dp"
-        android:layout_marginStart="50dp"
-        android:layout_marginLeft="50dp"
-        android:layout_marginTop="463dp"
+        android:layout_marginStart="52dp"
+        android:layout_marginLeft="52dp"
+        android:layout_marginTop="458dp"
         android:layout_marginEnd="55dp"
         android:layout_marginRight="55dp"
         android:contentDescription="@string/music_image"
@@ -285,25 +305,27 @@
         app:srcCompat="@mipmap/music_foreground"
         tools:ignore="MissingConstraints" />
 
+
+    //Next
+
     <TextView
         android:id="@+id/Music1Image"
         android:layout_width="95dp"
         android:layout_height="34dp"
-        android:layout_marginStart="230dp"
-        android:layout_marginLeft="230dp"
-        android:layout_marginTop="447dp"
-        android:layout_marginEnd="42dp"
-        android:layout_marginRight="42dp"
+        android:layout_marginStart="246dp"
+        android:layout_marginLeft="246dp"
+        android:layout_marginTop="561dp"
+        android:layout_marginEnd="70dp"
+        android:layout_marginRight="70dp"
+        android:gravity="center_horizontal"
         android:text="@string/music_text"
+        android:textAlignment="center"
         android:textColor="#3D5A80"
-        android:textSize="23sp"
-        app:layout_constraintEnd_toStartOf="@+id/cookingImage"
-        app:layout_constraintStart_toEndOf="@+id/sportImage"
-        app:layout_constraintTop_toTopOf="@+id/sportImage" />
+        android:textSize="21sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
-
-
-    //Next
     <Button
         android:id="@+id/Next123"
         android:layout_width="250dp"
@@ -314,8 +336,8 @@
         android:layout_marginEnd="50dp"
         android:layout_marginRight="50dp"
         android:text="@string/next_button"
-        android:textSize="20sp"
         android:textColor="@color/white"
+        android:textSize="20sp"
         app:backgroundTint="#98C1D9"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

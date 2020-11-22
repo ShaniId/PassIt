@@ -38,9 +38,9 @@
     <string name="cooking_image">Cooking</string>
     <string name="businesses_image">Businesses</string>
     <string name="businesses_text">Businesses</string>
-    <string name="Technology_text">Technology_text</string>
+    <string name="Technology_text">Technology</string>
     <string name="Technology_image">Technology_image</string>
-    <string name="DIY_text">DIY_text</string>
+    <string name="DIY_text">DIY-Do it yourself</string>
     <string name="DIY_image">DIY_image</string>
     <string name="travel_image">treavel_text</string>
     <string name="travelImage">travelImage</string>
@@ -58,7 +58,7 @@
     <string name="_8_45_breakfast">8:45 Breakfast</string>
     <string name="_9_15_it_s_time_for_good_podcast">9:15 It\'s time for good Podcast</string>
     <string name="_11_30_time_for_a_good_shower">11:30 Time for a good shower!</string>
-    <string name="_10_30_let_s_take_a_break_to_move_out_bodies">10:30 Let\'s take a break to move out bodies!</string>
+    <string name="_10_30_let_s_take_a_break_to_move_our_body">10:30 Let\'s take a break to move our body!</string>
     <string name="_12_00_it_s_reading_time">12:00 It\'s reading time!</string>
     <string name="_13_00_lunch_time_cooking_or_wolt">13:00 Lunch time! Cooking or Wolt?</string>
     <string name="covid">covid</string>

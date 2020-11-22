@@ -15,6 +15,7 @@
         android:layout_marginTop="30dp"
         android:layout_marginEnd="50dp"
         android:layout_marginRight="50dp"
+        android:gravity="center_horizontal"
         android:text="Now let our algorithm to build
         you a special plan!"
         android:textAlignment="center"
@@ -23,8 +24,22 @@
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/arrow"
+        android:layout_width="34dp"
+        android:layout_height="29dp"
+        android:layout_marginStart="320dp"
+        android:layout_marginLeft="320dp"
+        android:layout_marginTop="64dp"
+        android:layout_marginEnd="57dp"
+        android:layout_marginRight="57dp"
+        android:contentDescription="arr"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        android:gravity="center_horizontal" />
+        app:srcCompat="@mipmap/image2_foreground" />
 
     <TextView
         android:id="@+id/DatePickerTitle"
@@ -41,21 +56,36 @@
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.19" />
+        app:layout_constraintVertical_bias="0.20" />
+
+    <ImageView
+        android:id="@+id/date2"
+        android:layout_width="269dp"
+        android:layout_height="312dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="238dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginRight="50dp"
+        android:contentDescription="date"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@mipmap/date3_foreground" />
+
 
     <Button
         android:id="@+id/btnDatePicker"
-        android:layout_width="250dp"
-        android:layout_height="wrap_content"
-        android:background="#3385ff"
-        android:text="Choose dates"
-        android:textAllCaps="false"
-        android:textColor="#ffffff"
-        android:textSize="25sp"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_width="245dp"
+        android:layout_height="257dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="261dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginRight="50dp"
+        android:background="@color/cardview_shadow_end_color"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -66,17 +96,15 @@
         android:layout_height="60dp"
         android:layout_marginStart="50dp"
         android:layout_marginLeft="50dp"
+        android:layout_marginEnd="50dp"
         android:layout_marginRight="50dp"
-        android:layout_marginTop="620dp"
-        android:layout_marginBottom="121dp"
+        android:layout_marginBottom="90dp"
         android:text="Next"
         android:textColor="@color/white"
         android:textSize="20sp"
         app:backgroundTint="#3D5A80"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.369"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.657" />
+        app:layout_constraintStart_toStartOf="parent" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

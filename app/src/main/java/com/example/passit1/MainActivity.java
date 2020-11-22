@@ -31,17 +31,10 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v)
             {
-                Intent intent = new Intent(MainActivity.this, WelcomeBack.class);
+                Intent intent = new Intent(MainActivity.this, Day_1.class);
                 startActivity(intent);
             }
         });
     }
-//    @Override
-//    public void onStart() {
-//        super.onStart();
-//        // Check if user is signed in (non-null) and update UI accordingly.
-//        FirebaseUser currentUser = mAuth.getCurrentUser();
-//        updateUI(currentUser);
-//    }
-
+    
 }

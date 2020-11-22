@@ -65,21 +65,4 @@ public class WelcomeBack extends AppCompatActivity {
         });
     }
 
-//    public void checkEmail(View v){
-//        auth.fetchSignInMethodsForEmail(Email.getText().toString())
-//                .addOnCompleteListener(new OnCompleteListener<SignInMethodQueryResult>() {
-//                    @Override
-//                    public void onComplete(@NonNull Task<SignInMethodQueryResult> task) {
-//                        boolean check = !task.getResult().getSignInMethods().isEmpty();
-//                        if (!check)
-//                        {
-//                            Toast.makeText(getApplicationContext(), "Email not found",Toast.LENGTH_SHORT).show();
-//                        }
-//                        else
-//                        {
-//                            Toast.makeText(getApplicationContext(),"Email already present", Toast.LENGTH_SHORT).show();
-//                        }
-//                    }
-//                });
-//    }
 }

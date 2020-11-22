@@ -30,10 +30,11 @@
         android:layout_height="72dp"
         android:layout_marginStart="50dp"
         android:layout_marginLeft="50dp"
-        android:layout_marginTop="25dp"
+        android:layout_marginTop="24dp"
         android:layout_marginEnd="50dp"
         android:layout_marginRight="50dp"
         android:text="@string/get_started"
+        android:textColor="#ffffff"
         app:backgroundTint="#3D5A80"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
@@ -51,14 +52,15 @@
         android:layout_marginEnd="50dp"
         android:layout_marginRight="50dp"
         android:text="@string/i_already_have_an_account"
+        android:textColor="#ffffff"
         app:backgroundTint="#98C1D9"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/GetStarted"
-        app:layout_constraintVertical_bias="0.0"
-        tools:ignore="MissingConstraints"/>
+        tools:ignore="MissingConstraints" />
 <!--    tools:ignore="MissingConstraints" />-->
+
 
     <ImageView
         android:id="@+id/imageView"
