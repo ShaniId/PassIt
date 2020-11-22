@@ -30,27 +30,31 @@
     <RadioGroup
         android:id="@+id/workRGroup"
         android:layout_width="254dp"
-        android:layout_height="44dp"
+        android:layout_height="33dp"
+        android:layout_marginStart="62dp"
+        android:layout_marginLeft="62dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="100dp"
+        android:layout_marginRight="100dp"
         android:orientation="horizontal"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.414"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/KnowTheClient"
-        app:layout_constraintVertical_bias="0.12">
+        app:layout_constraintVertical_bias="0.094">
 
         <RadioButton
             android:id="@+id/yesWork"
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
+            android:layout_width="75dp"
+            android:layout_height="40dp"
             android:layout_marginEnd="100dp"
             android:layout_marginRight="100dp"
             android:text="Yes" />
 
         <RadioButton
             android:id="@+id/noWork"
-            android:layout_width="wrap_content"
-            android:layout_height="44dp"
+            android:layout_width="75dp"
+            android:layout_height="40dp"
             android:text="No" />
 
 
@@ -58,31 +62,39 @@
 
     <TextView
         android:id="@+id/workQuestion"
-        android:layout_width="264dp"
-        android:layout_height="39dp"
+        android:layout_width="265dp"
+        android:layout_height="27dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="55dp"
+        android:layout_marginRight="55dp"
+        android:layout_marginBottom="15dp"
         android:text="Are you going to work?"
+        android:textColor="#3D5A80"
+        android:textSize="20sp"
         app:layout_constraintBottom_toTopOf="@+id/workRGroup"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.469"
+        app:layout_constraintHorizontal_bias="0.51"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/KnowTheClient"
-        app:layout_constraintVertical_bias="0.36" />
+         />
 
     //2
 
     <Spinner
         android:id="@+id/spinner1"
-        android:layout_width="wrap_content"
-        android:layout_height="44dp"
-        android:layout_marginStart="40dp"
-        android:layout_marginLeft="40dp"
-        android:layout_marginTop="12dp"
+        android:layout_width="280dp"
+        android:layout_height="33dp"
+        android:layout_marginStart="26dp"
+        android:layout_marginLeft="26dp"
+        android:layout_marginTop="5dp"
         android:layout_marginEnd="35dp"
         android:layout_marginRight="35dp"
         android:entries="@array/spinner1"
         android:textSize="45sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.446"
+        app:layout_constraintHorizontal_bias="0.51"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/workRGroup"
         tools:ignore="MissingConstraints" />
@@ -90,29 +102,34 @@
     <Spinner
         android:id="@+id/spinner2"
         android:layout_width="wrap_content"
-        android:layout_height="44dp"
-        android:layout_marginTop="12dp"
+        android:layout_height="33dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="35dp"
+        android:layout_marginRight="35dp"
         android:entries="@array/spinner2"
         android:textSize="45sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.473"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/sportRGroup" />
 
     <TextView
         android:id="@+id/Question2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="8dp"
-        android:layout_marginEnd="35dp"
-        android:layout_marginRight="35dp"
+        android:layout_width="265dp"
+        android:layout_height="27dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="55dp"
+        android:layout_marginRight="55dp"
         android:gravity="center_horizontal"
         android:text="@string/do_you_do_sport"
         android:textAlignment="center"
         android:textColor="#3D5A80"
         android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.295"
+        app:layout_constraintHorizontal_bias="0.509"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/spinner1" />
 
@@ -120,76 +137,79 @@
     <RadioGroup
         android:id="@+id/sportRGroup"
         android:layout_width="254dp"
-        android:layout_height="46dp"
-        android:layout_marginTop="25dp"
+        android:layout_height="33dp"
+        android:layout_marginStart="62dp"
+        android:layout_marginLeft="62dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="100dp"
+        android:layout_marginRight="100dp"
         android:orientation="horizontal"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.414"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/Question2"
         app:layout_constraintVertical_bias="0.0">
 
         <RadioButton
             android:id="@+id/yesSport"
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
+            android:layout_width="75dp"
+            android:layout_height="40dp"
             android:layout_marginEnd="100dp"
             android:layout_marginRight="100dp"
             android:text="Yes" />
 
         <RadioButton
             android:id="@+id/noSport"
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
+            android:layout_width="75dp"
+            android:layout_height="40dp"
             android:text="No" />
     </RadioGroup>
 
     <TextView
         android:id="@+id/home"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="85dp"
-        android:layout_marginLeft="85dp"
-        android:layout_marginTop="0dp"
-        android:layout_marginEnd="150dp"
-        android:layout_marginRight="150dp"
+        android:layout_width="265dp"
+        android:layout_height="27dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="55dp"
+        android:layout_marginRight="55dp"
         android:text="@string/stay_alone_at_home"
         android:textColor="#3D5A80"
         android:textSize="20sp"
-        app:layout_constraintBottom_toTopOf="@+id/aloneRGroup"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/spinner2"
-        app:layout_constraintVertical_bias="0.0" />
+        />
 
 
     <RadioGroup
         android:id="@+id/aloneRGroup"
         android:layout_width="251dp"
-        android:layout_height="42dp"
-        android:layout_marginTop="0dp"
-        android:layout_marginBottom="116dp"
+        android:layout_height="33dp"
+        android:layout_marginStart="62dp"
+        android:layout_marginLeft="62dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="100dp"
+        android:layout_marginRight="100dp"
         android:orientation="horizontal"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.425"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/home">
 
 
         <RadioButton
             android:id="@+id/yesHome"
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
+            android:layout_width="75dp"
+            android:layout_height="40dp"
+            android:layout_marginEnd="100dp"
             android:layout_marginRight="100dp"
             android:text="Yes" />
 
         <RadioButton
             android:id="@+id/noHome"
-            android:layout_width="wrap_content"
-            android:layout_height="42dp"
+            android:layout_width="75dp"
+            android:layout_height="40dp"
             android:text="No" />
     </RadioGroup>
 
@@ -199,14 +219,14 @@
         android:layout_height="60dp"
         android:layout_marginStart="100dp"
         android:layout_marginLeft="100dp"
-        android:layout_marginTop="8dp"
+        android:layout_marginTop="45dp"
         android:layout_marginEnd="100dp"
         android:layout_marginRight="100dp"
         android:text="@string/next_button"
+        android:textColor="@color/white"
         android:textSize="20sp"
         app:backgroundTint="#98C1D9"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.512"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/YourAge" />
 
@@ -214,9 +234,9 @@
         android:id="@+id/YourAge"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="76dp"
-        android:layout_marginLeft="76dp"
-        android:layout_marginTop="15dp"
+        android:layout_marginStart="99dp"
+        android:layout_marginLeft="99dp"
+        android:layout_marginTop="30dp"
         android:layout_marginEnd="150dp"
         android:layout_marginRight="150dp"
         android:autofillHints="no"
@@ -226,7 +246,7 @@
         android:textColor="#3D5A80"
         android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="0.52"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/aloneRGroup" />
 

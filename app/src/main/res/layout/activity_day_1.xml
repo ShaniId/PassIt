@@ -1,0 +1,666 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:fillViewport="true">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context=".FirstDay"
+        tools:ignore="ExtraText">
+
+        <EditText
+            android:id="@+id/FirstDay"
+            android:layout_width="409dp"
+            android:layout_height="62dp"
+            android:layout_marginStart="1dp"
+            android:layout_marginLeft="1dp"
+            android:layout_marginTop="44dp"
+            android:layout_marginEnd="1dp"
+            android:layout_marginRight="1dp"
+            android:autofillHints=""
+            android:background="#98C1D9"
+            android:ems="10"
+            android:gravity="center_horizontal|center_vertical"
+            android:inputType="textPersonName"
+            android:text="@string/day_1_bar"
+            android:textAlignment="center"
+            android:textColor="#3D5A80"
+            android:textSize="30sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="LabelFor,MissingConstraints" />
+
+        <TextView
+            android:id="@+id/WaltDisney"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="15dp"
+            android:gravity="center_horizontal"
+            android:text="@string/quot_the_best_way_to_get_started_is_to_quit_n_talking_and_begin_doing_quot_n_walt_disney"
+            android:textAlignment="center"
+            android:textColor="#3D5A80"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            app:layout_constraintTop_toBottomOf="@+id/FirstDay"
+            tools:layout_editor_absoluteX="40dp" />
+
+        <CheckBox
+            android:id="@+id/checkBox10"
+            android:layout_width="335dp"
+            android:layout_height="30dp"
+            android:layout_marginHorizontal="30dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="29dp"
+            android:layout_marginEnd="50dp"
+            android:layout_marginRight="50dp"
+            android:text="@string/_8_00_time_to_wake_up"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/WaltDisney" />
+
+        <CheckBox
+            android:id="@+id/checkBox9"
+            android:layout_width="335dp"
+            android:layout_height="30dp"
+            android:layout_marginHorizontal="30dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="50dp"
+            android:layout_marginRight="50dp"
+            android:text="@string/_8_30_meditation_what_are_my_goals_for_today"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/checkBox10" />
+
+        <CheckBox
+            android:id="@+id/checkBox12"
+            android:layout_width="335dp"
+            android:layout_height="30dp"
+            android:layout_marginHorizontal="30dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="50dp"
+            android:layout_marginRight="50dp"
+            android:text="@string/_8_45_breakfast"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/checkBox9" />
+
+        <CheckBox
+            android:id="@+id/checkBox13"
+            android:layout_width="335dp"
+            android:layout_height="30dp"
+            android:layout_marginHorizontal="30dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="50dp"
+            android:layout_marginRight="50dp"
+            android:text="@string/_9_15_it_s_time_for_good_podcast"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/checkBox12" />
+
+        //comment image
+
+        <ImageView
+            android:id="@+id/comment1"
+            android:layout_width="111dp"
+            android:layout_height="96dp"
+            android:layout_marginStart="245dp"
+            android:layout_marginLeft="245dp"
+            android:layout_marginTop="280dp"
+            android:layout_marginEnd="56dp"
+            android:layout_marginRight="56dp"
+            android:contentDescription="comment1"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="MissingConstraints" />
+        <!--            app:srcCompat="@mipmap/comment1_foreground"-->
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="61dp"
+            android:layout_height="43dp"
+            android:layout_marginStart="269dp"
+            android:layout_marginLeft="269dp"
+            android:layout_marginTop="307dp"
+            android:layout_marginEnd="81dp"
+            android:layout_marginRight="81dp"
+            android:text=" Click here to\n find all the\n podcasts!"
+            android:textColor="#EE6C4D"
+            android:textSize="10sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+        //podcast image
+
+        <ImageView
+            android:id="@+id/podcast"
+            android:layout_width="34dp"
+            android:layout_height="29dp"
+            android:layout_marginStart="210dp"
+            android:layout_marginLeft="210dp"
+            android:layout_marginTop="60dp"
+            android:layout_marginEnd="118dp"
+            android:layout_marginRight="118dp"
+            android:contentDescription="@string/podcast"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.333"
+            app:layout_constraintStart_toStartOf="@+id/checkBox13"
+            app:layout_constraintTop_toBottomOf="@+id/checkBox9"
+            tools:ignore="MissingConstraints" />
+<!--        app:srcCompat="@mipmap/podcast_foreground"-->
+
+        <CheckBox
+            android:id="@+id/checkBox16"
+            android:layout_width="335dp"
+            android:layout_height="30dp"
+            android:layout_marginHorizontal="30dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="50dp"
+            android:layout_marginRight="50dp"
+            android:text="@string/_10_30_let_s_take_a_break_to_move_out_bodies"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/checkBox13" />
+
+        //gym image
+
+        <ImageView
+            android:id="@+id/gym"
+            android:layout_width="34dp"
+            android:layout_height="29dp"
+            android:layout_marginStart="305dp"
+            android:layout_marginLeft="305dp"
+            android:layout_marginTop="384dp"
+            android:layout_marginEnd="37dp"
+            android:layout_marginRight="37dp"
+            android:contentDescription="@string/gym"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.411"
+            app:layout_constraintStart_toStartOf="@+id/checkBox16"
+            app:layout_constraintTop_toTopOf="parent"
+             />
+<!--        app:srcCompat="@mipmap/gym_foreground"-->
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="370dp"
+            android:layout_height="70dp"
+            android:layout_marginStart="50dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="50dp"
+            android:layout_marginRight="50dp"
+            android:gravity="center_horizontal"
+            android:text="@string/which_training_do_you_want_to_do_today_npilates_yoga_zumba_nclick_here_to_find_all_the_options_ndon_t_forget_to_share_with_your_friends_your_training"
+            android:textAlignment="center"
+            android:textColor="#EE6C4D"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:background="@drawable/my_textview_orange_bg"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/checkBox16" />
+
+
+
+        <CheckBox
+            android:id="@+id/checkBox11"
+            android:layout_width="335dp"
+            android:layout_height="30dp"
+            android:layout_marginHorizontal="30dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="50dp"
+            android:layout_marginRight="50dp"
+            android:text="@string/_11_30_time_for_a_good_shower"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+        //shower image
+
+        <ImageView
+            android:id="@+id/shower"
+            android:layout_width="34dp"
+            android:layout_height="29dp"
+            android:layout_marginStart="223dp"
+            android:layout_marginLeft="223dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="124dp"
+            android:layout_marginRight="124dp"
+            android:contentDescription="@string/gym"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="@+id/checkBox11"
+            app:layout_constraintTop_toBottomOf="@+id/textView3"
+             />
+<!--        app:srcCompat="@mipmap/shower_foreground"-->
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="225dp"
+            android:layout_height="25dp"
+            android:layout_marginHorizontal="30dp"
+            android:layout_marginStart="50dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="50dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginBottom="15dp"
+            android:gravity="center_horizontal"
+            android:text="@string/we_hope_you_enjoyed_your_training"
+            android:textAlignment="center"
+            android:textColor="#EE6C4D"
+            android:textStyle="normal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.52"
+            app:layout_constraintStart_toStartOf="parent"
+            android:background="@drawable/my_textview_orange_bg"
+            app:layout_constraintTop_toBottomOf="@+id/checkBox11" />
+
+
+
+        <CheckBox
+            android:id="@+id/checkBox14"
+            android:layout_width="335dp"
+            android:layout_height="30dp"
+            android:layout_marginHorizontal="30dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="50dp"
+            android:layout_marginRight="50dp"
+            android:text="@string/_12_00_it_s_reading_time"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView4" />
+
+        //reading image
+
+        <ImageView
+            android:id="@+id/reading"
+            android:layout_width="34dp"
+            android:layout_height="29dp"
+            android:layout_marginStart="176dp"
+            android:layout_marginLeft="176dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="168dp"
+            android:layout_marginRight="168dp"
+            android:contentDescription="@string/gym"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="@+id/checkBox14"
+            app:layout_constraintTop_toBottomOf="@+id/textView4"
+             />
+<!--        app:srcCompat="@mipmap/reading_foreground"-->
+
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="370dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="50dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="50dp"
+            android:layout_marginRight="50dp"
+            android:gravity="center_horizontal"
+            android:text="@string/click_here_to_read_n_10_scientific_facts_about_reading_books_n_and_how_could_it_really_improve_your_life"
+            android:textColor="#3D5A80"
+            android:textStyle="normal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            android:background="@drawable/my_textview_bg"
+            app:layout_constraintTop_toBottomOf="@+id/checkBox14" />
+
+
+        <CheckBox
+            android:id="@+id/checkBox15"
+            android:layout_width="335dp"
+            android:layout_height="30dp"
+            android:layout_marginHorizontal="30dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="50dp"
+            android:layout_marginRight="50dp"
+            android:text="@string/_13_00_lunch_time_cooking_or_wolt"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView5" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="30dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="270dp"
+            android:layout_marginRight="270dp"
+            android:text="@string/recipes"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="14sp"
+            android:textStyle="italic"
+            app:backgroundTint="#3D5A80"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/checkBox15" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="160dp"
+            android:layout_marginStart="148dp"
+            android:layout_marginLeft="148dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="147dp"
+            android:layout_marginRight="147dp"
+            android:text="@string/wolt"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="15sp"
+            android:textStyle="italic"
+            app:backgroundTint="#3D5A80"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/checkBox15" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="290dp"
+            android:layout_marginStart="120dp"
+            android:layout_marginLeft="120dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="30dp"
+            android:layout_marginRight="30dp"
+            android:text="@string/already_have_lunch"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="9sp"
+            android:textStyle="normal"
+            app:backgroundTint="#3D5A80"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="@+id/button2"
+            app:layout_constraintTop_toBottomOf="@+id/checkBox15"
+            tools:ignore="SmallSp" />
+
+        <CheckBox
+            android:id="@+id/checkbox20"
+            android:layout_width="335dp"
+            android:layout_height="30dp"
+            android:layout_marginHorizontal="30dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="50dp"
+            android:layout_marginRight="50dp"
+            android:text="@string/_15_00_a_nap"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/button" />
+
+        <CheckBox
+            android:id="@+id/checkbox21"
+            android:layout_width="335dp"
+            android:layout_height="30dp"
+            android:layout_marginHorizontal="30dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="50dp"
+            android:layout_marginRight="50dp"
+            android:text="16:00 Course!"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.48"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/checkbox20" />
+
+        //comment image
+
+        <ImageView
+            android:id="@+id/comment2"
+            android:layout_width="209dp"
+            android:layout_height="107dp"
+            android:layout_marginStart="65dp"
+            android:layout_marginLeft="65dp"
+            android:layout_marginTop="792dp"
+            android:layout_marginEnd="128dp"
+            android:layout_marginRight="128dp"
+            android:contentDescription="comment2"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="MissingConstraints" />
+<!--        app:srcCompat="@mipmap/comment1_foreground"-->
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="76dp"
+            android:layout_height="44dp"
+            android:layout_marginStart="75dp"
+            android:layout_marginLeft="75dp"
+            android:layout_marginTop="824dp"
+            android:layout_marginEnd="81dp"
+            android:layout_marginRight="81dp"
+            android:text=" It's good time\n to study\n something new"
+            android:textColor="#EE6C4D"
+            android:textSize="10sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.34"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+        <Button
+            android:id="@+id/buttonClickHere"
+            android:layout_width="250dp"
+            android:layout_height="30dp"
+            android:layout_marginHorizontal="30dp"
+            android:layout_marginStart="50dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="50dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginBottom="15dp"
+            android:text="Click here to find relevant courses"
+            android:textAllCaps="false"
+            android:textColor="#3D5A80"
+            android:textSize="14sp"
+            android:textStyle="normal"
+            app:layout_constraintBottom_toTopOf="@+id/checkbox22"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            android:background="@drawable/my_button_bg"
+            app:layout_constraintTop_toBottomOf="@+id/checkbox21" />
+
+
+
+        <Button
+            android:id="@+id/NetflixButton"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:layout_marginHorizontal="30dp"
+            android:layout_marginStart="100dp"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="50dp"
+            android:layout_marginRight="50dp"
+            android:text="Go to Netflix"
+            android:textAllCaps="false"
+            android:textColor="#EE6C4D"
+            android:textSize="14sp"
+            android:textStyle="normal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/checkbox22"
+            app:layout_constraintStart_toStartOf="@+id/checkbox22"
+            android:background="@drawable/my_button_orange_bg"
+            app:layout_constraintTop_toBottomOf="@+id/buttonClickHere" />
+
+
+
+        <CheckBox
+            android:id="@+id/checkbox22"
+            android:layout_width="335dp"
+            android:layout_height="30dp"
+            android:layout_marginHorizontal="30dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="57dp"
+            android:layout_marginEnd="50dp"
+            android:layout_marginRight="50dp"
+            android:text="19:00 Netflix time"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/checkbox21" />
+
+        <CheckBox
+            android:id="@+id/checkbox23"
+            android:layout_width="335dp"
+            android:layout_height="30dp"
+            android:layout_marginHorizontal="30dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="50dp"
+            android:layout_marginRight="50dp"
+            android:text="20:00 Dinner!"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/checkbox22" />
+
+
+        <CheckBox
+            android:id="@+id/checkbox24"
+            android:layout_width="335dp"
+            android:layout_height="30dp"
+            android:layout_marginHorizontal="30dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="50dp"
+            android:layout_marginRight="50dp"
+            android:text="@string/phone_calls_for_the_people_you_like"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/checkbox23" />
+
+        <CheckBox
+            android:id="@+id/checkbox25"
+            android:layout_width="335dp"
+            android:layout_height="30dp"
+            android:layout_marginHorizontal="30dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="50dp"
+            android:layout_marginRight="50dp"
+            android:text="@string/time_for_yourself"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/checkbox24" />
+
+        <Button
+            android:id="@+id/personalDiary"
+            android:layout_width="270dp"
+            android:layout_height="30dp"
+            android:layout_marginHorizontal="30dp"
+            android:layout_marginStart="50dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="50dp"
+            android:layout_marginRight="50dp"
+            android:text="Click here to write in your personal diary!"
+            android:textAllCaps="false"
+            android:textColor="#3D5A80"
+            android:textSize="14sp"
+            android:textStyle="normal"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:background="@drawable/my_button_bg"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/checkbox25" />
+
+
+
+        <TextView
+            android:id="@+id/alotoftext"
+            android:layout_width="370dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="50dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginEnd="50dp"
+            android:layout_marginRight="50dp"
+            android:gravity="center_horizontal"
+            android:text="Now pls think about the things you want to thank for them, the small things in your life.
+If you want you can send a small message with a good word for the people you love, we know that it will give them a good feeling.
+It's also a good time to think about the goals of your life and the person you are."
+            android:textColor="#3D5A80"
+            android:textStyle="normal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.508"
+            app:layout_constraintStart_toStartOf="parent"
+            android:background="@drawable/my_textview_bg"
+            app:layout_constraintTop_toBottomOf="@+id/personalDiary" />
+
+
+
+        <TextView
+            android:id="@+id/finishText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="50dp"
+            android:text="We hope you had a great day!"
+            android:textColor="#3D5A80"
+            android:textSize="20sp"
+            android:textStyle="normal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/alotoftext" />
+
+        <ImageView
+            android:id="@+id/heart12"
+            android:layout_width="106dp"
+            android:layout_height="70dp"
+            android:layout_marginStart="320dp"
+            android:layout_marginLeft="320dp"
+            android:layout_marginTop="110dp"
+            android:background="@android:color/transparent"
+            android:contentDescription="@string/heart_image"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/personalDiary"
+            tools:ignore="MissingConstraints" />
+<!--        app:srcCompat="@mipmap/heart123_foreground"-->
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>
+
+
+
+
+
+
+

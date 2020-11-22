@@ -11,7 +11,7 @@
         android:theme="@style/Theme.PassIt1">
         <activity android:name=".DatePicker"></activity>
         <activity android:name=".ToKnowTheClientMenu" />
-        <activity android:name=".ToKbowTheClientManu" />
+        <activity android:name=".Day_1" />
         <activity android:name=".ToKnowTheClient" />
         <activity android:name=".WelcomeBack" />
         <activity android:name=".PersonalDetailsActivity" />

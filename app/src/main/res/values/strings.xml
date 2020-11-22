@@ -51,7 +51,37 @@
     <string name="music_image">Music</string>
     <string name="music_text">Music</string>
     <string name="choose_date">Choose the days you will stay in quarantine</string>
-
+    <string name="day_1_bar">Day 1</string>
+    <string name="quot_the_best_way_to_get_started_is_to_quit_n_talking_and_begin_doing_quot_n_walt_disney">\"“The Best Way To Get Started Is To Quit\n Talking And Begin Doing.”\"\n Walt Disney</string>
+    <string name="_8_00_time_to_wake_up">8:00 Time to wake up!</string>
+    <string name="_8_30_meditation_what_are_my_goals_for_today">8:30 Meditation + What are my goals for today?</string>
+    <string name="_8_45_breakfast">8:45 Breakfast</string>
+    <string name="_9_15_it_s_time_for_good_podcast">9:15 It\'s time for good Podcast</string>
+    <string name="_11_30_time_for_a_good_shower">11:30 Time for a good shower!</string>
+    <string name="_10_30_let_s_take_a_break_to_move_out_bodies">10:30 Let\'s take a break to move out bodies!</string>
+    <string name="_12_00_it_s_reading_time">12:00 It\'s reading time!</string>
+    <string name="_13_00_lunch_time_cooking_or_wolt">13:00 Lunch time! Cooking or Wolt?</string>
+    <string name="covid">covid</string>
+    <string name="podcast">podcast</string>
+    <string name="gym">gym</string>
+    <string name="which_training_do_you_want_to_do_today_npilates_yoga_zumba_nclick_here_to_find_all_the_options_ndon_t_forget_to_share_with_your_friends_your_training">Which training do you want to do today?\nPilates? Yoga? Zumba?\nClick here to find all the options!\nDon\'t forget to share with your friends your training!</string>
+    <string name="we_hope_you_enjoyed_your_training">We hope you enjoyed your training!</string>
+    <string name="click_here_to_read_n_10_scientific_facts_about_reading_books_n_and_how_could_it_really_improve_your_life">Click here to read\n 10 SCIENTIFIC FACTS ABOUT READING BOOKS\n AND HOW COULD IT REALLY IMPROVE YOUR LIFE</string>
+    <string name="recipes">Recipes!</string>
+    <string name="wolt">Wolt!</string>
+    <string name="already_have_lunch">Already have lunch!</string>
+    <string name="next_b">Next</string>
+    <string name="choose_the_days_you_will_n_stay_on_quarantine">Choose the days you will\n stay on quarantine</string>
+    <string name="next_next">Next</string>
+    <string name="choose_start_date">Choose Start Date</string>
+    <string name="choose_end_day">Choose end day</string>
+    <string name="next1111">Next</string>
+    <string name="_15_00_a_nap">15:00 A nap</string>
+    <string name="_16_00_it_s_good_time_to_study_something_new">16:00 It\'s good time to study something new!</string>
+    <string name="_netflix_time">Netflix time</string>
+    <string name="dinner">Dinner!</string>
+    <string name="phone_calls_for_the_people_you_like">21:00 Phone calls for the people you like</string>
+    <string name="time_for_yourself">22:00 Time for yourself</string>
 
     <string-array name="spinner1">
         <item>If yes-how much hours at day?</item>

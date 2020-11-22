@@ -7,26 +7,54 @@
     tools:context=".DatePicker">
 
     <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginRight="50dp"
+        android:text="Now let our algorithm to build
+        you a special plan!"
+        android:textAlignment="center"
+        android:textColor="#3D5A80"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:gravity="center_horizontal" />
+
+    <TextView
         android:id="@+id/DatePickerTitle"
         android:layout_width="410dp"
         android:layout_height="76dp"
-        android:background="#98C1D9"
-        android:ems="10"
-        android:text="@string/choose_date"
-        android:textColor="#3D5A80"
-        android:textSize="30sp"
+        android:background="#3D5A80"
+        android:ems="20"
+        android:gravity="center_horizontal|center_vertical"
+        android:inputType="textPersonName"
+        android:text="Choose the days you will stay on quarantine:"
+        android:textAlignment="center"
+        android:textColor="#ffffff"
+        android:textSize="19sp"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.14" />
+        app:layout_constraintVertical_bias="0.19" />
 
     <Button
         android:id="@+id/btnDatePicker"
-        android:layout_width="wrap_content"
+        android:layout_width="250dp"
         android:layout_height="wrap_content"
-        android:text="Show Date Picker"
+        android:background="#3385ff"
+        android:text="Choose dates"
+        android:textAllCaps="false"
+        android:textColor="#ffffff"
+        android:textSize="25sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -34,13 +62,21 @@
 
     <Button
         android:id="@+id/btn_continue"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Continue"
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginTop="620dp"
+        android:layout_marginBottom="121dp"
+        android:text="Next"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:backgroundTint="#3D5A80"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintHorizontal_bias="0.369"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.761" />
+        app:layout_constraintVertical_bias="0.657" />
 </androidx.constraintlayout.widget.ConstraintLayout>

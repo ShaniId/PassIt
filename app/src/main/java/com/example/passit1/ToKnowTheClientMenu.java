@@ -19,7 +19,7 @@ public class ToKnowTheClientMenu extends AppCompatActivity {
             @Override
             public void onClick(View v)
             {
-                Intent intent = new Intent(ToKnowTheClientMenu.this, DatePicker.class);
+                Intent intent = new Intent(ToKnowTheClientMenu.this, Day_1.class);
                 startActivity(intent);
             }
         });
